@@ -1,0 +1,77 @@
+class Employee
+{
+        String empName;
+        int emp No;
+        float salary;
+        String empDesig;
+        byte expYrs;
+
+       void setEmployee (String Name, int no, float sal,                     String des, byte ex)
+      {
+        empName = Name;
+
+        empNo = no;
+        salary = sal;
+        empDesig = des;
+        expYrs = ex;
+      }
+void getEmployee ()
+{
+       System. out .println (empName+"\t"+empNo+"\t"+emp Desig+"\t"+salary+"\t"+expYrs+"\n") ;
+}
+}
+class demoEmployee
+public static void main (String args[] )
+Employee rahul = new Employee () ;
+
+rahul.setEmployee ("Rahul" ,128966, 99999.0f, "PM", (byte) 20);empDesig = des;
+    expYrs = ex;
+}
+       void getEmployee ()
+{
+         System.out.println (empName+"\t"+empNo+"\t"+empDesig+"\t"+salary+"\t"+expYrs+"\n");
+}
+class demoEmployee
+{
+      public static void main (String args [] )
+{
+                Employee rahul = new Employee ();
+                rahul.setEmployee ("Rahul" , 128966, 99999. 0f, "PM", (byte) 20) ;
+                System. out .println ("empName\tempNo\tempDesig\tsalary\texpYrs\n") ;
+               rahul.getEmployee () ;
+
+
+           Employee rakesh = new Employee (0;
+           rakesh.empName = "Rakesh Batra" ;
+           rakesh. empNo = 785412 ;
+           rakesh.salary = 894576. 0f ;
+           rakesh.empDesig = "project lead";
+          rakesh.expYrs = (byte) 10;
+          rakesh.getEmployee ();
+}
+}empDesig = des;
+    expYrs = ex;
+}
+       void getEmployee ()
+{
+         System.out.println (empName+"\t"+empNo+"\t"+empDesig+"\t"+salary+"\t"+expYrs+"\n");
+}
+class demoEmployee
+{
+      public static void main (String args [] )
+{
+                Employee rahul = new Employee ();
+                rahul.setEmployee ("Rahul" , 128966, 99999. 0f, "PM", (byte) 20) ;
+                System. out .println ("empName\tempNo\tempDesig\tsalary\texpYrs\n") ;
+               rahul.getEmployee () ;
+
+
+           Employee rakesh = new Employee (0;
+           rakesh.empName = "Rakesh Batra" ;
+           rakesh. empNo = 785412 ;
+           rakesh.salary = 894576. 0f ;
+           rakesh.empDesig = "project lead";
+          rakesh.expYrs = (byte) 10;
+          rakesh.getEmployee ();
+}
+}
